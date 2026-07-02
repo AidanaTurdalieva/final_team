@@ -11,3 +11,14 @@ def calculate_total(sales):
     
 res = calculate_total(sales)
 print(res)
+
+def find_min_sale(sales):
+    min_sale = 0
+    for i in sales:
+        if i < min_sale:
+            min_sale = i
+
+    return min_sale
+
+min_sale = find_min_sale(sales)
+print(min_sale)   
