@@ -28,3 +28,13 @@ def count_sales(sales):
 
 sales_count = count_sales(sales)
 print(sales_count)
+def avarage_sale(sales):
+    avarage_sale0 = sum(sales)/len(sales)
+    return avarage_sale0
+avarage_sale1 = avarage_sale(sales)
+print(avarage_sale1)
+
+def max_sale(sales):
+    return max(sales)
+maximum = max_sale(sales)
+print(maximum)
